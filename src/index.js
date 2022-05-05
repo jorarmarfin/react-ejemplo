@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const activo=true;
+// let mensaje = '';
+// if (activo) {
+//     mensaje='Activo';
+// }else{
+//     mensaje='Inactivo';
+// }
+// const mensaje = (activo)? 'Activo': 'Inactivo';
+// const mensaje = (activo)? 'Activo': null;
+const mensaje = activo && 'Activo';
+console.log(mensaje);
